@@ -9,19 +9,22 @@
   <title>Github Profiles</title>
 </head>
 <body>
+  <div class="container">
 
-  <div class="header">
-    <img src="./assets/Octocat.png" alt="Github Octocat Picture" class="octocat">
-    <img src="./assets/GitHub.png" alt="Github Name" class="github">
+    <div class="header">
+      <img src="./assets/Octocat.png" alt="Github Octocat Picture" class="octocat">
+      <img src="./assets/GitHub.png" alt="Github Name" class="github">
+    </div>
+
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a Github User">
+    </form>
+
+    <main id="main"></main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+  
   </div>
-
-  <form class="user-form" id="form">
-    <input type="text" id="search" placeholder="Search a Github User">
-  </form>
-
-  <main id="main"></main>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="main.js"></script>
 </body>
 </html>
